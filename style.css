@@ -33,17 +33,14 @@ main {
     background-color: blueviolet;
 }
 
-.altura h2 {
-    text-align: center;
-}
-
-.peso h2 {
+h2 {
     text-align: center;
 }
 
 .botao {
     display: flex;
     justify-content: center;
+    margin-top: 30px;
 }
 
 button {

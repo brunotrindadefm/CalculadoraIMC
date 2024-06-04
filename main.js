@@ -2,14 +2,14 @@ function calcularIMC() {
 
     const peso = parseFloat(document.getElementById('peso').value);
     const altura = parseFloat(document.getElementById('altura').value);
-
+    resultado = document.getElementById('resultado');
+    
     if (altura <= 0 || peso <= 0) {
         result.textContent = 'Por favor, insira valores válidos para altura e peso.';
         return;
     }
 
     const imc = peso / (altura * altura);
-    resultado = document.getElementById('resultado');
     let classificação = "";
 
     if (imc < 18.5) {
