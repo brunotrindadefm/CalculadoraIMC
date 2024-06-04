@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+    height: 100%;
+}
+
+.calculadora {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 20%;
+    padding: 20px;
+    height: 500px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    border: 3px solid whitesmoke;
+    background-color: blueviolet;
+}
+
+.altura h2 {
+    text-align: center;
+}
+
+.peso h2 {
+    text-align: center;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: black;
+    color: aliceblue;
+    border-radius: 50px;
+    width: 40%;
+    transition: ease 0.5s;
+    height: 5vh;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(230, 230, 230);
+    color: rgb(3, 3, 3);
+    transition: ease 0.5s;
+    border-radius: 20px;
+    width: 40%;
+    height: 5vh;
+    cursor: pointer;
+}
+
+input {
+    border: 3px solid black;
+    border-radius: 50px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 22px;
+}
+
+.calculadora div {
+    width: 60%;
+}
+
+.resultado {
+    font-size: 24px;
+    color: aliceblue;
+    margin-top: 10px;
+}
