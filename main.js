@@ -5,7 +5,11 @@ function calcularIMC() {
     resultado = document.getElementById('resultado');
     
     if (altura <= 0 || peso <= 0) {
-        result.textContent = 'Por favor, insira valores válidos para altura e peso.';
+        resultado.textContent = 'Insira valores válidos para altura e peso.';
+        return;
+    }
+    else if (isNaN(peso) || isNaN(altura)) {
+        resultado.textContent = 'Insira valores válidos para altura e peso.';
         return;
     }
 
