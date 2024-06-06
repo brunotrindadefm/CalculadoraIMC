@@ -55,19 +55,3 @@ function mudarBackground() {
         botaocalculadora.style.color = "black";
     }
 }
-
-document.addEventListener("DOMContentLoaded", (event) => {
-    document.body.style.backgroundColor = "white";
-    const calculadora = document.getElementById('calculadora');
-    calculadora.style.border = "3px solid orange";
-    calculadora.style.backgroundColor = "black";
-    calculadora.style.color = "white";
-
-    const botao = document.getElementById('mudarCoresBotao');
-    botao.style.backgroundColor = "orange";
-    botao.style.color = "black";
-
-    const botaocalculadora = document.getElementById('botao');
-    botaocalculadora.style.backgroundColor = "orange";
-    botaocalculadora.style.color = "black";
-});
