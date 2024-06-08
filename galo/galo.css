@@ -4,6 +4,7 @@ body {
     align-items: center;
     flex-direction: column;
     height: 90vh;
+    background: #212121;
 }
 
 button {
@@ -27,4 +28,9 @@ div {
     display: flex;
     align-items: center;
     margin: 10px 10px;
+}
+h2 {
+    color: white;
+    text-shadow: 2px 3px 3px orange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
