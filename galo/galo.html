@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galo</title>
+    <link rel="stylesheet" href="galo.css">
+</head>
+
+<body>
+
+    <h2>o <b>GALO</b> é o maior time de minas?</h2>
+    <div>
+
+        <a href="https://www.youtube.com/watch?v=BuLGllHnsbo"><button>SIM</button></a>
+        <button id="botaoNao" onmouseover="botaoNao()">NÃO</button>
+    </div>
+
+    <script>
+        function botaoNao() {
+            const botao = document.getElementById('botaoNao');
+
+            // botao.addEventListener('mouseover', () => {
+                const posicaoTop = Math.random() * (window.innerHeight - botao.offsetHeight);
+                const posicaoLeft = Math.random() * (window.innerWidth - botao.offsetWidth); 
+
+                botao.style.position = 'absolute';
+                botao.style.left = posicaoLeft + 'px';
+                botao.style.top = posicaoTop + 'px';
+            // })
+        }
+    </script>
+
+</body>
+
+</html>

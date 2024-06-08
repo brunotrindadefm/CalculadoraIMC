@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+}
+
+button {
+    margin: 10px 5px;
+    border-radius: 50px;
+    width: 100px;
+    transition: ease 0.5s;
+    height: 5vh;
+    background-color: orange;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+#botaoNao {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+div {
+    display: flex;
+    align-items: center;
+    margin: 10px 10px;
+}
