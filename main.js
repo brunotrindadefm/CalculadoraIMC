@@ -40,13 +40,13 @@ function mudarBackground() {
     if (body.style.backgroundColor == "white" || body.style.backgroundColor == "") {
         calculadora.style.border = "3px solid white";
         body.style.backgroundColor = "black";
-        calculadora.style.backgroundColor = "orange";
-        calculadora.style.color = "black";
+        calculadora.style.color = "white";
         botao.style.backgroundColor = "white";
         botao.style.color = "black";
         botaocalculadora.style.backgroundColor = "white";
         botaocalculadora.style.color = "black";
         titulosBotoes.style.color = "white";
+        botao.textContent = 'Light-Mode';
         for (let index = 0; index < botaoSimNao.length; index++) {
             botaoSimNao[index].style.backgroundColor = "white";
             botaoSimNao[index].style.color = "black";
@@ -54,14 +54,14 @@ function mudarBackground() {
 
     } else {
         body.style.backgroundColor = "white";
+        calculadora.style.color = "orange";
         calculadora.style.border = "4px solid orange";
-        calculadora.style.backgroundColor = "black";
-        calculadora.style.color = "white";
         botao.style.backgroundColor = "orange";
         botao.style.color = "black";
         botaocalculadora.style.backgroundColor = "orange";
         botaocalculadora.style.color = "black";
-        titulosBotoes.style.color = "black";
+        titulosBotoes.style.color = "orange";
+        botao.textContent = 'Dark-Mode';
         
         for (let index = 0; index < botaoSimNao.length; index++) {
             botaoSimNao[index].style.backgroundColor = "orange";
